@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-Br"> 
+    <head>
+        <title>Minha página</title>
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light margin"> <!--cria uma barra na parte superior-->
+            <a class="navbar-brand" href="#">
+                <img src="img/global_labs.png" alt="Imagem da logo global_labs" width="75">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quemsomos">Quem somos</a> <!--nav-link cria um efeito isual no link-->
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li> 
+                </ul>
+            </div>
+        </nav>
+        <section id="quemsomos"> <!--section cria uma sessão na página-->
+            <div class="container-fluid quem-somos text-center margin">
+                <h3 class="color-text margin">Quem somos</h3>
+                <img class="image" src="img/teme.jpg" alt="Imagem tema" width="400" height="400">
+                <!--class="rounded-circle" arredonda a imagem-->
+                <h3 class="color_text">Somos um time comprometido com resultados</h3>
+            </div>
+        </section>
+        <section id="parceiros">
+            <div class="container-fluid parceiros text-center margin parceiros">
+                <h3 class="color-text margin">Parceiros</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4"> <!--<col-lg- 4> divide a tela em colunas no caso foi utilizado o nº4-->
+                            <img src="img/digital_inovation.png" alt="Logo da digital_inovation" width="55%">
+                        </div>
+                        <div class="col-lg-4"> <!--<col-lg- 4> o número 4 foi utilizado pois na tela conta-se 12-->
+                            <img src="img/digital_inovation.png" alt="Logo digital_inovation" width="55%">
+                        </div>
+                        <div class="col-lg-4"> <!--<col-lg- 4> Logo 12 dividido por 4 da 3. Então teremos 3 imagens na tela-->
+                            <img src="img/digital_inovation.png" alt="Logo digital_inovation" width="55%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos">
+            <div class="container-fluid text-center margin servicos">
+                <h3 class="color-text margin">Serviços</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p>Aplicativo multifuncional.</p>
+                            <img src="img/app.jpg" alt="Imagem app" width="100%">
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Site multifuncional.</p>
+                            <img src="img/site1.jpg" alt="Imagem site1" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class=" container-fluid text-center bg-footer margin"> <!--footer é o rodaper da página-->
+            <p>Deselvolvido por William Batista</p>
+        </footer>
+    </body>
+
+</html>

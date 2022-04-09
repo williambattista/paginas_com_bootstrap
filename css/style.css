@@ -1,0 +1,37 @@
+
+body {
+    font: 20px  Arial, sans-serif;  
+}
+.navbar {
+   
+   background-color: rgb(151, 182, 103); 
+   margin: auto;
+    
+}
+.nav-item {
+    font: "#";
+}
+.quem-somos{
+    background-color: rgb(213, 230, 201);
+    color: rgb(0, 0, 0);
+}
+.margin {
+    padding-top: 15px; /*margem interna superior*/
+    padding-bottom: 25px; /*margem interna inferior*/
+}
+.image {
+    border-radius: 50%;
+}
+.color_text {
+    color: "#";
+}
+.parceiros {
+    background-color: rgb(240, 245, 230);
+}
+.col-lg-4, .col-lg-6 {
+    padding-top: 25px;
+}
+.bg-footer {
+    background-color: black;
+    color: white;
+}
